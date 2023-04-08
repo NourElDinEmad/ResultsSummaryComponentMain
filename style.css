@@ -47,13 +47,12 @@ body {
   border-radius: 0 0 30px 30px;
 }
 
-.header p:last-child {
-  font-size: small;
-  padding: 0 50px;
-}
-
 .light-lavender {
   color: var(--light-lavender);
+}
+
+h1{
+  font-size: medium;
 }
 
 .user-result {
@@ -78,10 +77,18 @@ body {
   font-weight: 700;
 }
 
+.header p:last-child {
+  font-size: small;
+  padding: 0 50px;
+}
+
 .results {
   padding: 20px;
 }
 
+h2{
+  font-size: larger;
+}
 .results>p {
   margin: 10px 0;
   padding: 15px;
